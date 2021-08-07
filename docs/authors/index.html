@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+
+		
+
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/start-19e420b8.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/chunks/vendor-1fda6636.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/chunks/paths-45dac81d.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/pages/__layout.svelte-27d33ecc.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/pages/authors/index.svelte-899db186.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/chunks/goodbye-550c1fec.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/chunks/hello-a54b36af.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/chunks/second-post-86f894d9.js">
+		<link rel="stylesheet" href="/sveltekit-blog-app/_app/assets/start-a8cd1609.css">
+		<link rel="stylesheet" href="/sveltekit-blog-app/_app/assets/pages/__layout.svelte-89b9e7b2.css">
+		<link rel="stylesheet" href="/sveltekit-blog-app/_app/assets/hello-29b7cff0.css">
+
+		<script type="module">
+			import { start } from "/sveltekit-blog-app/_app/start-19e420b8.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/sveltekit-blog-app","assets":"/sveltekit-blog-app"},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/sveltekit-blog-app/_app/pages/__layout.svelte-27d33ecc.js"),
+						import("/sveltekit-blog-app/_app/pages/authors/index.svelte-899db186.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/authors",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+  </head>
+  <body>
+    <div id="svelte">
+
+
+<nav><a href="/sveltekit-blog-app/">Homes</a> |
+  <a href="/sveltekit-blog-app/archive">Archive</a> |
+  <a href="/sveltekit-blog-app/tags">Tags</a> |
+  <a href="/sveltekit-blog-app/authors">Authors</a></nav>
+
+<div><h1>Authors</h1>
+<ul><li><a sveltekit:prefetch href="/sveltekit-blog-app/authors/Other blogger">Other blogger</a></li><li><a sveltekit:prefetch href="/sveltekit-blog-app/authors/Sveltekit blogger">Sveltekit blogger</a></li></ul>
+</div>
+
+
+
+	
+</div>
+  </body>
+</html>

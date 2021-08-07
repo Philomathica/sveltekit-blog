@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+
+		
+
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/start-19e420b8.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/chunks/vendor-1fda6636.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/chunks/paths-45dac81d.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/pages/__layout.svelte-27d33ecc.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/pages/posts/hello.md-600758f0.js">
+		<link rel="modulepreload" href="/sveltekit-blog-app/_app/chunks/hello-a54b36af.js">
+		<link rel="stylesheet" href="/sveltekit-blog-app/_app/assets/start-a8cd1609.css">
+		<link rel="stylesheet" href="/sveltekit-blog-app/_app/assets/pages/__layout.svelte-89b9e7b2.css">
+		<link rel="stylesheet" href="/sveltekit-blog-app/_app/assets/hello-29b7cff0.css">
+
+		<script type="module">
+			import { start } from "/sveltekit-blog-app/_app/start-19e420b8.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/sveltekit-blog-app","assets":"/sveltekit-blog-app"},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/sveltekit-blog-app/_app/pages/__layout.svelte-27d33ecc.js"),
+						import("/sveltekit-blog-app/_app/pages/posts/hello.md-600758f0.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/posts/hello",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+  </head>
+  <body>
+    <div id="svelte">
+
+
+<nav><a href="/sveltekit-blog-app/">Homes</a> |
+  <a href="/sveltekit-blog-app/archive">Archive</a> |
+  <a href="/sveltekit-blog-app/tags">Tags</a> |
+  <a href="/sveltekit-blog-app/authors">Authors</a></nav>
+
+<div><h1>Hello by Sveltekit blogger</h1>
+<p>Some amazing content.</p>
+<p>Svelte component in markdown:</p>
+<div class="svelte-18hn8z7"><div class="counter svelte-10z950o"><button aria-label="Decrease the counter by one" class="svelte-10z950o"><svg aria-hidden="true" viewBox="0 0 1 1" class="svelte-10z950o"><path d="M0,0.5 L1,0.5" class="svelte-10z950o"></path></svg></button>
+
+  <div class="counter-viewport svelte-10z950o"><div class="counter-digits svelte-10z950o" style="transform: translate(0, 0%)"><strong style="top: -100%" aria-hidden="true" class="svelte-10z950o">1</strong>
+      <strong class="svelte-10z950o">0</strong></div></div>
+
+  <button aria-label="Increase the counter by one" class="svelte-10z950o"><svg aria-hidden="true" viewBox="0 0 1 1" class="svelte-10z950o"><path d="M0,0.5 L1,0.5 M0.5,0 L0.5,1" class="svelte-10z950o"></path></svg></button>
+</div></div>
+</div>
+
+
+
+	
+</div>
+  </body>
+</html>
